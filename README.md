@@ -47,7 +47,7 @@ source env/bin/activate
 # Install the required packages
 pip install -r requirements.txt
 
-# Download the data from the following link
+# Download the data from the following link. Use Webscraping.py and pdf.py to create the test set
 
 # Run the dataset and informativeness score formation files from the dataset folder
 cd datasets
