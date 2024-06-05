@@ -54,4 +54,21 @@ cd datasets
 # Run the files in the model folder on the dataset created to obtain the results
 cd ..
 cd model
+```
 
+### Informativeness Score Calculation
+
+The informativeness score is computed using the following formula:
+
+$$
+R_{info} = \frac{e_{asp} + R_{sec} + 2 \times |R_{rec} - 0.5| + e_{Rstr}}{2 \times (e + 1) \times R_{hsc}}
+$$
+
+Where:
+
+- R<sub>info</sub>: Informativeness score
+- R<sub>sec</sub>: Section score
+- e<sub>asp</sub>: Aspect score
+- R<sub>rec</sub>: Recommendation score
+- e<sub>str</sub>: Strength score
+- R<sub>hsc</sub>: Hedge score
